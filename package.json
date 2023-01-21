@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --cache --fix \"./src/**/*.{tsx,jsx,ts,js}\" && prettier --write \"./src/**/*.{tsx,jsx,ts,js}\""
+    "lint": "eslint --cache --fix \"./src/**/*.{tsx,jsx,ts,js}\" && prettier --write \"./src/**/*.{tsx,jsx,ts,js}\"",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@next/font": "13.1.4",
@@ -23,6 +24,8 @@
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.1.4",
     "eslint-plugin-react": "^7.32.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
     "prettier": "^2.8.3"
   }
 }
