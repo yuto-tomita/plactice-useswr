@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
@@ -41,7 +42,13 @@ export default function Home() {
           priority
         />
         <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+          <Image
+            src="/thirteen.svg"
+            alt="13"
+            width={40}
+            height={31}
+            priority
+          />
         </div>
       </div>
 
